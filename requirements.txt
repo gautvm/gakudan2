@@ -1,0 +1,15 @@
+flask==3.1.0
+flask-cors==5.0.1
+google-genai==1.7.0
+matplotlib==3.10.1
+networkx==3.4.2
+numpy==2.2.4
+scikit-learn==1.6.1
+sentence-transformers==3.4.1
+colorlog==6.9.0
+gunicorn==23.0.0
+pillow==11.1.0
+orjson==3.10.15
+PyYAML==5.3.1
+requests==2.32.3
+rich==13.9.4
