@@ -666,7 +666,7 @@ class GeminiPromptProcessor:
         return self.all_results, combined_result
 
 def main():
-    api_key = "AIzaSyBe8kjRD-siRLDQh30xVRka5TmrsAZVwYc"
+    api_key = os.environ.get("GEMINI_API_KEY")
     processor = GeminiPromptProcessor(api_key)
 
     while True:

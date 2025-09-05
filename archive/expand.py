@@ -1150,7 +1150,7 @@ class GeminiPromptProcessor:
 
 def main():
     """Main function to run the prompt processor."""
-    api_key = "AIzaSyBgjwc8ihSASWnCm1qiRUYdEu1jtWuzcW4"  # Replace with environment variable in production
+    api_key = os.environ.get("GEMINI_API_KEY")  # Replace with environment variable in production
     processor = GeminiPromptProcessor(api_key)
     
     try:
